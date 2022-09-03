@@ -1,0 +1,36 @@
+.sidebarOptions{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarOptions > h5 {
+    padding:10px 10px 10px 10px;
+}
+
+
+
+.sidebarOptions:hover {
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+
+.sidebarOptions > h2 > Button{
+    font-weight:  800;
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgb(58, 55, 55);
+}
+
+.sidebarOption--active{
+    color: var(--twitter-color);
+}
+
+.userSearchBox{
+    padding: 10px;
+    border: 1px solid rgb(153, 144, 144) !important;
+    box-shadow: #97c3e2;
+    opacity: 5px;
+}

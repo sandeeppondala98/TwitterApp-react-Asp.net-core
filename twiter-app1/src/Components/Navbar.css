@@ -1,0 +1,6 @@
+body {
+    min-height: 75rem;
+  }
+.barStyle{
+  background-color: var(--twitter-color) !important;
+}  

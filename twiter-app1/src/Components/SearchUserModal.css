@@ -1,0 +1,23 @@
+.modalBackgroundSearchUser{
+    top:80px;
+    right:110px; 
+    background-color: rgb(66, 59, 59);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    z-index: 1000;
+}
+.modalContainerSearchUser{
+    width: 1260px;
+    height: 620px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(8, 8, 8, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+}

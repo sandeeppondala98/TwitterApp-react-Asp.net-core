@@ -1,0 +1,139 @@
+.modalBackgroundProfileDetails {
+    top:20px;
+    right:20px;
+    left:20px;
+    
+    background-color: rgb(66, 59, 59);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    z-index: 1000;
+  }
+  
+  .modalContainerProfileDetails {
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(8, 8, 8, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    display: block;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .UsernameStyle{
+    color: green;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: 1px solid #50b7f5;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
+
+  .submitModelbutton{
+    background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: auto;
+  height: auto !important;
+  margin-top: 20px !important;
+  margin-left: auto !important;
+
+  }
+
+  .modalContainer1 {
+    width: 510px;
+    height: 620px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(8, 8, 8, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+  }
+
+  .card1{
+    overflow: hidden;
+    align-items: center;
+    transition: transform 0.2s;
+    
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    border: 1px solid rgb(199, 194, 194);
+  }
+
+  div.card:hover button.delete-button {
+    visibility: visible;
+  
+  }
+  
+  div.card-body {
+    text-align: center;
+  }
+  
+ .ProfileImageCard{
+     width:200px;
+     height:200px;
+     overflow: hidden;
+     border: 1px solid rgb(235, 214, 214);
+ }
+
+
+
+
+
+
+ 

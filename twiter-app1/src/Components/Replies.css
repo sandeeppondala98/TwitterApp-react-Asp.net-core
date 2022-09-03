@@ -1,0 +1,22 @@
+.replies{
+    background-color: #9ac9e7;
+}
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: whitesmoke;
+    border: 1px solid #50b7f5;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .replytext1{
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 0px 80px;
+    color: rgb(155, 5, 5);
+  }
